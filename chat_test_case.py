@@ -4,7 +4,7 @@ import lancedb
 import numpy as np
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
-from llm_utils.postgres_writer import (
+from postgres_writer import (
     insert_test_case,
     get_test_case_json_by_story_id,
     get_all_generated_story_ids
