@@ -1,3 +1,5 @@
+# before running this file, create a uploaded_docs folder in the same directory as this file and update the location of uploaded_docs in config.json
+
 import os
 import shutil
 import json
